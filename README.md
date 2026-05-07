@@ -29,7 +29,7 @@ Each file is independent and verifies against the current Mathlib release.
 
 ### Constraint-System Instantiation
 
-**`252_pathgame_constraint_system.lean`** — Path-Game Is a Constraint System
+**`252_hamiltonian_constraint_system.lean`** — Path-Game Is a Constraint System
 Defines an abstract `PathGame` structure with partial-path states, vertex moves, Hamiltonian-path completions, and the two ConstraintSystem axioms: coherence (completions imply local validity) and monotonicity (extending a partial path can only restrict the completion set). Provides the `PathGame.toConstraintSystem` constructor establishing the formal connection. As a consequence, the four Sudoku-Microscope theorems — local-global separation (IDs 247, 248), catastrophic-commitment foreclosure (ID 249), forced-gate safety (ID 250), and bucket sufficiency (ID 251) — apply to path-games by inheritance. The 4×4 instance (start = r1c1, finish = r1c4, exactly 8 valid Hamiltonian paths A–H) is one concrete instantiation; the framework covers any Hamiltonian-path problem on any graph.
 
 ### Layer 2 Signature Formalization
@@ -43,7 +43,7 @@ Defines the Layer 2 silent-commit signature as a formal predicate: a catastrophi
 
 | Paper Result | File | Lean Theorem |
 |---|---|---|
-| Path-game domain as ConstraintSystem instance (§2) | `252_pathgame_constraint_system.lean` | `PathGame.toConstraintSystem` |
+| Path-game domain as ConstraintSystem instance (§2) | `252_hamiltonian_constraint_system.lean` | `PathGame.toConstraintSystem` |
 | Layer 2 silent-commit signature definition (§3.1) | `253_layer2_signature.lean` | `layer2Signature` (definition) |
 | Layer 2 signature provider-agnostic well-definedness (§3.1) | `253_layer2_signature.lean` | `layer2_provider_agnostic` |
 
