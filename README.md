@@ -6,7 +6,7 @@ Machine-checked Lean 4 proofs for:
 
 **"Minimal Topologies of Forward-Local Failure in AI Systems: The Hamiltonian Microscop"**
 
-Paper DOI (concept, always resolves to latest): [TBD](https://doi.org/10.5281/zenodo.20278073)
+Paper DOI (concept, always resolves to latest): [10.5281/zenodo.20278073](https://doi.org/10.5281/zenodo.20278073)
 
 ---
 
