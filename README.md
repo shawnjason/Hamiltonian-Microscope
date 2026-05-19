@@ -1,12 +1,12 @@
 # Hamiltonian-Microscope — Lean Proofs
 
-[![DOI](https://zenodo.org/badge/DOI/TBD.svg)](https://doi.org/TBD)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20073715.svg)](https://doi.org/10.5281/zenodo.20073715)
 
 Machine-checked Lean 4 proofs for:
 
-**"Path-Game GAF Pilot v0.1: Cross-Provider Program Handoff v1.7"**
+**"Minimal Topologies of Forward-Local Failure in AI Systems: The Hamiltonian Microscop"**
 
-Paper DOI (concept, always resolves to latest): [TBD](https://doi.org/TBD)
+Paper DOI (concept, always resolves to latest): [TBD](https://doi.org/10.5281/zenodo.20278073)
 
 ---
 
